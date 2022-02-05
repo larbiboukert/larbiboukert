@@ -1,4 +1,4 @@
 # larbiboukert-com
 My personal website &amp; portfolio
 
-live @ larbiboukert.com
+live @ https://larbiboukert.com
