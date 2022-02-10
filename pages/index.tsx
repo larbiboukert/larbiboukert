@@ -1,15 +1,23 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import TopHeader from "../components/TopHeader";
 
 const Home: NextPage = () => {
   return (
-    
-    <h1 className="text-3xl font-bold underline">
-      Larbi Boukert
-    </h1>
-  )
-}
+    <>
+      <Head>
+        <title>Larbi Boukert</title>
+        <meta
+          name="description"
+          content="Larbi Boukert Personal Website & Portfolio"
+        ></meta>
+      </Head>
 
-export default Home
+      <TopHeader />
+
+      
+    </>
+  );
+};
+
+export default Home;
