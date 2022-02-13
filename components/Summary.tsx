@@ -54,8 +54,8 @@ function Summary({}: Props) {
 export default Summary;
 
 const MetaInfo = ({ number, title }: { number: string; title: string }) => (
-  <p className="flex">
+  <div className="flex">
     <p className="font-semibold mr-1">{number}</p>
-    {title}
-  </p>
+    <p>{title}</p>
+  </div>
 );

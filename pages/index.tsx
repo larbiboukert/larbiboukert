@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
 
       <TopHeader />
-      <main className="max-w-4xl">
+      <main className="max-w-4xl mx-auto">
         <Summary />
       </main>
     </>
