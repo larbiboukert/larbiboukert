@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Summary from "../components/Summary";
 import TopHeader from "../components/TopHeader";
 
 const Home: NextPage = () => {
@@ -14,8 +15,9 @@ const Home: NextPage = () => {
       </Head>
 
       <TopHeader />
-
-      
+      <main className="max-w-4xl">
+        <Summary />
+      </main>
     </>
   );
 };
