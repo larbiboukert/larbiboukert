@@ -6,13 +6,18 @@ type Props = {};
 function Summary({}: Props) {
   return (
     <section about="Larbi Boukert summary" className="flex mt-8">
-      <div className="mx-24">
-        <Image
-          src={`/favicon.ico`}
-          width={160}
-          height={160}
-          alt="Larbi Boukert photo"
-        />
+      <div className="self-start mx-24 p-1 rounded-full bg-gradient-to-tr from-yellow-400 to-fuchsia-600">
+        <div className="relative w-48 h-48 p-1 rounded-full bg-white">
+          <Image
+            src={`/larbi-boukert-photo.jpeg`}
+            // width={168}
+            // height={168}
+            layout="fill"
+            alt="Larbi Boukert photo"
+            className="m-1 rounded-full"
+            priority
+          />
+        </div>
       </div>
       <div className="mt-4">
         <div className="flex">
