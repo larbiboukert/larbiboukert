@@ -19,8 +19,8 @@ const Home: NextPage = () => {
       <TopHeader />
       <main className="max-w-4xl mx-auto">
         <Summary />
-        <Highlights />
-        <Posts />
+        {/* <Highlights />
+        <Posts /> */}
       </main>
     </>
   );

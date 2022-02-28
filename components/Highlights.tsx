@@ -11,22 +11,21 @@ type Props = {};
 function Highlights({}: Props) {
   return (
     <div className="mt-14 flex overflow-x-auto space-x-6">
-      <Swiper
-        modules={[Navigation]}
-        navigation
-      >
+      <Swiper modules={[Navigation]} navigation slidesPerView="auto">
         {["react", "nextjs", "typescript", "aspnetcore", "csharp", "node"].map(
           (pic, k) => (
             <SwiperSlide key={k} className="flex flex-col items-center">
-              <Image
-                src={`/logos/${pic}.png`}
-                layout="fixed"
-                width={80}
-                height={80}
-                objectFit="fill"
-                alt="story"
-                className="rounded-full"
-              />
+              <div>
+                <Image
+                  src={`/logos/${pic}.png`}
+                  layout="fixed"
+                  width={80}
+                  height={80}
+                  objectFit="fill"
+                  alt="story"
+                  className="rounded-full"
+                />
+              </div>
               <p className="mt-1">{`Larbi--${k}`}</p>
             </SwiperSlide>
           )
