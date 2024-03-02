@@ -1,1 +1,1 @@
-[LinkedIn(https://www.linkedin.com/in/larbiboukert/)]
+[LinkedIn](https://www.linkedin.com/in/larbiboukert/)
